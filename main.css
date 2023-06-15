@@ -1,0 +1,75 @@
+*,::after,::before{
+    box-sizing: inherit;
+}html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+:root{
+    --white: hsl(0, 0%, 100%);
+    --lgray:hsl(212, 45%, 89%);
+    --gblue:hsl(220, 15%, 55%);
+    --dblue:hsl(218, 44%, 22%);
+}
+
+.body{
+    width:100vw;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--lgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+}
+
+h1,p{
+    /* margin: 0; */
+}
+
+.container{
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--white);
+width: 300px;
+    padding: 1.4rem;
+    border-radius: 1.6rem;
+    box-shadow: 1px 1px 10px rgba(red, 0, 0, 0);
+    vertical-align: middle;
+}
+
+.div_qrcode{
+    width:100%;
+}
+
+.div_qrcode img{
+width: 100%;
+height: 100%;
+border-radius: 1rem;
+
+}
+
+.discription{
+width: 100%;
+padding: 1rem;
+}
+
+.discription h1{
+font-weight: 700;
+color: var(--dblue);
+font-size: 2rem;
+}
+
+.discription p{
+font-size: 1.5rem;
+font-weight: 400;
+color: var(--gblue);
+}
+
+/* ------------------- RESPONSIVE ------------------ */
+
+@media(max-width:376px){
+
+}
